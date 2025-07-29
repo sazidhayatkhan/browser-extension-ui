@@ -127,7 +127,7 @@ const HomeUI = (props: Props) => {
       </div>
       {filteredCards.length === 0 && filter === "active" ? (
         <div className="flex justify-center items-center">
-          <span className="text-white text-sm">No items found</span>
+          <span className="text-white text-sm mt-20 md:mt-[100px]">No items found</span>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
