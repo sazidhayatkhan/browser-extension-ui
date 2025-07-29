@@ -96,7 +96,7 @@ const HomeUI = (props: Props) => {
     if (filter === "inactive") return !card.isActive;
   });
   return (
-    <div className="_container">
+    <div className="_container min-h-screen">
       <div className="flex flex-col md:flex-row justify-between items-center mb-4">
         <h1 className="text-3xl font-bold text-white mb-2 md:mb-0">
           Extension List
@@ -127,7 +127,7 @@ const HomeUI = (props: Props) => {
       </div>
       {filteredCards.length === 0 && filter === "active" ? (
         <div className="flex justify-center items-center">
-          <span className="text-gray-600 text-sm">No items found</span>
+          <span className="text-white text-sm">No items found</span>
         </div>
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
