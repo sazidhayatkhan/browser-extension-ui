@@ -8,51 +8,52 @@ type Props = {};
 const page = (props: Props) => {
   const cardData = [
   {
-    imageSrc: '/images/speedboost.jpg',
-    title: 'SpeedBoost',
-    description: 'Increase your site performance with our optimization tools.',
+    imageSrc: '/images/logo-console-plus.svg',
+    title: 'Console Plus',
+    description: 'Streamline your debugging and logging with an enhanced developer console.',
   },
   {
-    imageSrc: '/images/analytics.jpg',
-    title: 'Smart Analytics',
-    description: 'Track detailed metrics and user behavior in real time.',
+    imageSrc: '/images/logo-json-wizard.svg',
+    title: 'JSON Wizard',
+    description: 'Easily parse, format, and visualize your JSON data like magic.',
   },
   {
-    imageSrc: '/images/security.jpg',
-    title: 'Secure Shield',
-    description: 'Protect your data with enterprise-grade security solutions.',
+    imageSrc: '/images/logo-link-checker.svg',
+    title: 'Link Checker',
+    description: 'Detect broken or outdated links across your site with ease.',
   },
   {
-    imageSrc: '/images/speedboost.jpg',
-    title: 'SpeedBoost',
-    description: 'Increase your site performance with our optimization tools.',
+    imageSrc: '/images/logo-markup-notes.svg',
+    title: 'Markup Notes',
+    description: 'Add inline notes and annotations to your HTML and markup files.',
   },
   {
-    imageSrc: '/images/analytics.jpg',
-    title: 'Smart Analytics',
-    description: 'Track detailed metrics and user behavior in real time.',
+    imageSrc: '/images/logo-palette-picker.svg',
+    title: 'Palette Picker',
+    description: 'Design perfect color schemes with our intuitive palette generator.',
   },
   {
-    imageSrc: '/images/security.jpg',
-    title: 'Secure Shield',
-    description: 'Protect your data with enterprise-grade security solutions.',
+    imageSrc: '/images/logo-speed-boost.svg',
+    title: 'Speed Boost',
+    description: 'Supercharge your site performance with advanced optimization tools.',
   },
   {
-    imageSrc: '/images/speedboost.jpg',
-    title: 'SpeedBoost',
-    description: 'Increase your site performance with our optimization tools.',
+    imageSrc: '/images/logo-style-spy.svg',
+    title: 'Style Spy',
+    description: 'Inspect and analyze styles across your website effortlessly.',
   },
   {
-    imageSrc: '/images/analytics.jpg',
-    title: 'Smart Analytics',
-    description: 'Track detailed metrics and user behavior in real time.',
+    imageSrc: '/images/logo-tab-master-pro.svg',
+    title: 'Tab Master Pro',
+    description: 'Take control of your browser tabs with powerful organization tools.',
   },
   {
-    imageSrc: '/images/security.jpg',
-    title: 'Secure Shield',
-    description: 'Protect your data with enterprise-grade security solutions.',
+    imageSrc: '/images/logo-viewport-buddy.svg',
+    title: 'Viewport Buddy',
+    description: 'Test and preview your site across multiple screen sizes with ease.',
   },
 ];
+
   return (
     <div className="bg-blue-950">
       <div className="_container">

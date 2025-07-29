@@ -12,17 +12,17 @@ const Card = ({
   onRemove,
 }: CardProps) => {
   return (
-    <div className="bg-[#1F2535] border border-gray-600 rounded-3xl p-4">
+    <div className="bg-[#1F2535] border border-gray-600 rounded-3xl p-5">
       <div className="flex justify-start items-start gap-4">
         <div className="relative h-[60px] min-w-[60px] rounded-xl overflow-hidden">
           <Image
-            src={data?.image}
-            alt={data?.name}
+            src={data?.imageSrc}
+            alt={data?.title}
             fill
             className="object-cover rounded-xl"
           />
         </div>
-        <div className="min-h-[150px]">
+        <div className="min-h-[120px]">
           <h2 className="text-white font-semibold text-xl">{data?.title}</h2>
           <p className="text-gray-600 text-sm line-clamp-4">{data?.description}</p>
         </div>
