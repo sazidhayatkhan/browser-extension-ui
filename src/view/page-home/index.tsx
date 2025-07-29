@@ -98,7 +98,7 @@ const HomeUI = (props: Props) => {
   return (
     <div className="_container">
       <div className="flex flex-col md:flex-row justify-between items-center mb-4">
-        <h1 className="text-3xl font-bold text-gray-700 mb-2 md:mb-0">
+        <h1 className="text-3xl font-bold text-white mb-2 md:mb-0">
           Extension List
         </h1>
         <div className="flex items-center gap-2">
