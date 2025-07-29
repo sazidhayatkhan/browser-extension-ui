@@ -57,7 +57,7 @@ const page = (props: Props) => {
   return (
     <div className="bg-blue-950">
       <div className="_container">
-        <div className="grid grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {cardData?.map((item: any, idx: any) => (
             <Card data={item} key={idx}/>
           ))}

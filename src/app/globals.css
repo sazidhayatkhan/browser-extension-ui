@@ -30,3 +30,12 @@ body {
   margin: auto;
   overflow: hidden;
 }
+
+@media (max-width: 786px) {
+  ._container {
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: auto;
+    overflow: hidden;
+  }
+}
