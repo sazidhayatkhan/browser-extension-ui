@@ -14,11 +14,12 @@ const Button: React.FC<ButtonProps> = ({
   className,
   ...props
 }) => {
-  const baseStyles = 'px-4 py-2 rounded font-medium transition-colors duration-200';
+
+  const baseStyles = 'px-[12px] py-[6px] rounded-full font-medium transition-colors duration-500 text-xs md:text-sm border border-gray-600';
 
   const variantStyles = {
-    primary: 'bg-blue-600 text-white hover:bg-blue-700',
-    outlined: 'border border-blue-600 text-blue-600 hover:bg-blue-50',
+    primary: 'bg-gray-700 text-white hover:bg-transparent',
+    outlined: 'text-white bg-transparent hover:bg-gray-700',
   };
 
   return (
