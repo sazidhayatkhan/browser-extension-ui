@@ -1,7 +1,7 @@
 "use client";
-import Button from "@/components/ui/Button";
-import Card from "@/components/ui/Card";
 import React from "react";
+import Card from "@/components/ui/Card";
+
 
 type Props = {};
 
@@ -57,6 +57,9 @@ const page = (props: Props) => {
   return (
     <div className="bg-blue-950">
       <div className="_container">
+        <div className="mb-4">
+          <h1 className="text-3xl font-bold text-white">Extension List</h1>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {cardData?.map((item: any, idx: any) => (
             <Card data={item} key={idx}/>
