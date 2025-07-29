@@ -107,7 +107,7 @@ const HomeUI = (props: Props) => {
             className={filter === "all" ? "bg-orange-400" : ""}
             onClick={() => setFilter("all")}
           >
-            All
+            &nbsp;All&nbsp;
           </Button>
           <Button
             variant="primary"
