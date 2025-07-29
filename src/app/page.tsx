@@ -1,35 +1,66 @@
 "use client";
 import Button from "@/components/ui/Button";
+import Card from "@/components/ui/Card";
 import React from "react";
 
 type Props = {};
 
 const page = (props: Props) => {
+  const cardData = [
+  {
+    imageSrc: '/images/speedboost.jpg',
+    title: 'SpeedBoost',
+    description: 'Increase your site performance with our optimization tools.',
+  },
+  {
+    imageSrc: '/images/analytics.jpg',
+    title: 'Smart Analytics',
+    description: 'Track detailed metrics and user behavior in real time.',
+  },
+  {
+    imageSrc: '/images/security.jpg',
+    title: 'Secure Shield',
+    description: 'Protect your data with enterprise-grade security solutions.',
+  },
+  {
+    imageSrc: '/images/speedboost.jpg',
+    title: 'SpeedBoost',
+    description: 'Increase your site performance with our optimization tools.',
+  },
+  {
+    imageSrc: '/images/analytics.jpg',
+    title: 'Smart Analytics',
+    description: 'Track detailed metrics and user behavior in real time.',
+  },
+  {
+    imageSrc: '/images/security.jpg',
+    title: 'Secure Shield',
+    description: 'Protect your data with enterprise-grade security solutions.',
+  },
+  {
+    imageSrc: '/images/speedboost.jpg',
+    title: 'SpeedBoost',
+    description: 'Increase your site performance with our optimization tools.',
+  },
+  {
+    imageSrc: '/images/analytics.jpg',
+    title: 'Smart Analytics',
+    description: 'Track detailed metrics and user behavior in real time.',
+  },
+  {
+    imageSrc: '/images/security.jpg',
+    title: 'Secure Shield',
+    description: 'Protect your data with enterprise-grade security solutions.',
+  },
+];
   return (
-    <div className="bg-blue-950 w-screen h-screen">
-      <div className="grid grid-cols-4 gap-3">
-        {[1, 2, 3, 4, 5, 6, 7, 8].map((item: any, idx: any) => (
-          <div className="bg-[#1F2535] border border-gray-600 rounded-3xl p-4">
-            <div className="">
-              {/* <Button
-                variant="primary"
-                onClick={() => alert("Primary clicked!")}
-              >
-                Remove
-              </Button> */}
-              <div className="flex justify-start items-start gap-4">
-                <div className="bg-pink-300 h-[60px] min-w-[60px] rounded-xl"></div>
-                <div className="min-h-[150px]">
-                  <h2 className="text-white font-semibold text-xl">SpeedBoost</h2>
-                  <p className="text-gray-600 text-sm line-clamp-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, dolorem.</p>
-                </div>
-              </div>
-              <div>
-                <Button variant="outlined">Remove</Button>
-              </div>
-            </div>
-          </div>
-        ))}
+    <div className="bg-blue-950">
+      <div className="_container">
+        <div className="grid grid-cols-3 gap-3">
+          {cardData?.map((item: any, idx: any) => (
+            <Card data={item} key={idx}/>
+          ))}
+        </div>
       </div>
     </div>
   );
