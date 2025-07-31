@@ -96,7 +96,7 @@ const HomeUI = (props: Props) => {
     if (filter === "inactive") return !card.isActive;
   });
   return (
-    <div className="_container min-h-screen">
+    <div className="_container min-h-screen pb-12">
       <div className="flex flex-col md:flex-row justify-between items-center mb-4">
         <h1 className="text-3xl font-bold text-white mb-2 md:mb-0">
           Extension List
