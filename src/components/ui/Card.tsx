@@ -15,7 +15,7 @@ type CardProps = {
 
 const Card = ({ data, onRemove, onToggle }: CardProps) => {
   return (
-    <div className="bg-[#1F2535] border border-gray-600 rounded-3xl p-5">
+    <div className="bg-[#1F2535] border border-gray-600 rounded-3xl shiny-card p-5">
       <div className="flex justify-start items-start gap-4">
         <div className="relative h-[60px] min-w-[60px] rounded-xl overflow-hidden">
           <Image

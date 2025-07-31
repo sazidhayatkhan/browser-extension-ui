@@ -43,6 +43,36 @@ body {
 *::-webkit-scrollbar {
   display: none; /* Hides scrollbar */
 }
+.shiny-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.shiny-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0.3) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  transform: skewX(-20deg);
+}
+
+.shiny-card:hover::before {
+  animation: shine 0.75s;
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
 
 @media (max-width: 786px) {
   ._container {
