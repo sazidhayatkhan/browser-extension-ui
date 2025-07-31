@@ -12,7 +12,7 @@ const Navbar = (props: Props) => {
             src="/images/logo.svg"
             alt="logo"
             fill
-            className="object-contain"
+            className="object-contain brightness-0 invert"
           />
         </div>
         <div>
